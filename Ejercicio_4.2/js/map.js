@@ -85,7 +85,7 @@ require([
                 */
                 var widgetPrint = new Print ({
                     map : mapMain,
-                    url: "http://sampleserver6.arcgisonline.com/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task",
+                    url: "https://utility.arcgisonline.com/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task/execute",
                     templates : myTemplates
                 }, divPrint);
                 widgetPrint.startup();
